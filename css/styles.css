@@ -363,11 +363,10 @@ text-align: left;
 
 .logo {
     display: flex;
-    width: 44px;
-    height: 21px;
+    
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 16px;
+    
     display: inline-block;
     
     
