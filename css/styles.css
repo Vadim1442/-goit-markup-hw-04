@@ -160,6 +160,7 @@ transition: color cubic-bezier(0.4, 0, 0.2, 1);
     background-repeat: no-repeat; 
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
 }
 .hero-container {
     
@@ -197,6 +198,7 @@ cursor: pointer;
 display: block;
 margin-left:auto;
 margin-right:auto;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-order-btn:hover {
@@ -366,7 +368,8 @@ letter-spacing :  0.02em;
 }
 
 .soc-icon {
-   
+    width: 16px;
+    height: 16px;
     fill: #f4f4fd;
 }
 
